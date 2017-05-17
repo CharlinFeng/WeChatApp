@@ -2,7 +2,7 @@
 微信小程序笔记
 
 
-
+===========
 ·弹性布局
 ===========
 
@@ -11,13 +11,15 @@
 参考页面：http://www.jianshu.com/p/f82262002f8a
 
 
-
+===========
 ·事件
 ===========
+    
     
     //wxml代码：
     <view class="item" bindtap="clickItems" data-id="item1">item1</view>
     <view class="item" bindtap="clickItems" data-id="item2">item2</view>
+    
     
     //js代码
     var param = {
@@ -32,10 +34,9 @@
         var id = e.currentTarget.dataset.id;
 
         param.data.defaultText = "您点击了视图";
-
-        this.setData(param.data);
+        //刷新数据
+        this.setData(param.data);
       }
-
 
     };
 

@@ -43,5 +43,16 @@
 
 
 
+<br/>
 
+·Block循环
+===========
+        <view>
 
+          <block wx:for = "{{icons}}">
+
+            <icon type="{{item}}" size = "40" />
+
+          </block>
+
+        </view>

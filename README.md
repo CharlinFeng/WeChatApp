@@ -3,6 +3,7 @@
 
 
 <br/>
+
 ·弹性布局
 ===========
 
@@ -12,31 +13,31 @@
 
 
 <br/>
+
 ·事件
 ===========
 
-    //wxml代码：
-    <view class="item" bindtap="clickItems" data-id="item1">item1</view>
-    <view class="item" bindtap="clickItems" data-id="item2">item2</view>
+        //wxml代码：
+        <view class="item" bindtap="clickItems" data-id="item1">item1</view>
+        <view class="item" bindtap="clickItems" data-id="item2">item2</view>
     
-    
-    //js代码
-    var param = {
+        //js代码
+        var param = {
 
-      data: {
-        defaultText: "请点击"
-      },
+          data: {
+            defaultText: "请点击"
+          },
 
-      clickItems: function(e){
-      
-        var id = e.currentTarget.dataset.id;
-        param.data.defaultText = "您点击了视图";
-        //刷新数据
-        this.setData(param.data);
-      }
-    };
+          clickItems: function(e){
 
-    Page(param);
+            var id = e.currentTarget.dataset.id;
+            param.data.defaultText = "您点击了视图";
+            //刷新数据
+            this.setData(param.data);
+          }
+        };
+
+        Page(param);
 
 
 

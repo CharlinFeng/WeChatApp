@@ -56,3 +56,9 @@
           </block>
 
         </view>
+        
+        <br/>
+
+·tabBar
+===========
+在app.json里面直接配置，敲击tabbar即可。同时最好删除默认的index和log页面。新建页面建议小写。

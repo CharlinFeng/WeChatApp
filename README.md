@@ -58,12 +58,14 @@
         </view>
         
 <br/>
+
 ·tabBar
 ===========
 在app.json里面直接配置，敲击tabbar即可。同时最好删除默认的index和log页面。新建页面建议小写。
 官方文档：https://mp.weixin.qq.com/debug/wxadoc/dev/framework/config.html
 
 <br/>
+
 ·App
 ===========
 可以通过App()获取到app实例，并可以直接定义并读取数据，调用app内部定义的方法。

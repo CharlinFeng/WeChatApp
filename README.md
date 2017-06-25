@@ -16,10 +16,11 @@
 
         //app.js
         App({
-          p: { //p名字可以随便叫
+
+          p: { //p名字可以随便叫
             userModel: null
           }
-        })
+        })
         
 使用的时候是： getApp().p.userModel
 
@@ -27,9 +28,9 @@
 <br>
 ####2.在Controller里面定义属性：
 
-        var app = getApp(); //获取全局app
-        
-        Page({
+        var app = getApp(); //获取全局app
+
+        Page({
           data: {
             um: null,
             pwd: null

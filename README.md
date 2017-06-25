@@ -26,7 +26,7 @@
 
 
 <br>
-####2.在Controller里面定义属性：
+#### 2.在Controller里面定义属性：
 
         var app = getApp(); //获取全局app
 

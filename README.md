@@ -6,19 +6,19 @@
 
 #### 全新安装，请设置修改文件自动保存！否则新建删除文件会出现各种问题。
 
-·弹性布局
+<br/><br/>
+
+·参数定义
 ===========
 
 #### 1.在APP里面自定义全局属性：
 
+
         //app.js
-
         App({
-
           p: { //p名字可以随便叫
             userModel: null
           }
-
         })
         
 使用的时候是： getApp().p.userModel
@@ -28,14 +28,12 @@
 ####2.在Controller里面定义属性：
 
         var app = getApp(); //获取全局app
-        
+        
         Page({
-
           data: {
             um: null,
             pwd: null
           }
-
         })
 
 

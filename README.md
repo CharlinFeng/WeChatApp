@@ -105,3 +105,34 @@
 ·App
 ===========
 可以通过App()获取到app实例，并可以直接定义并读取数据，调用app内部定义的方法。
+
+
+
+<br/>
+
+·执行动画
+===========
+
+        animAction: function (e){
+
+            var anim_creator = wx.createAnimation({
+
+              transformOrigin: "50% 50% 0",
+              duration: 1000,
+              timingFunction: "ease-out",
+              delay: 0
+
+            });
+
+            anim_creator.scale(0.5, 0.5).step().rotate(45).step().height(200).step();
+
+            var anim_obj = anim_creator.export();
+
+
+
+            this.setData({ anim_obj_p: anim_obj});
+
+
+          }
+
+

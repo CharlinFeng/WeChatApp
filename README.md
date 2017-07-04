@@ -45,8 +45,11 @@
 
     display: flex; height: 500rpx; flex-direction: column; justify-content: space-around;
     
-    //文本垂直居中
+
+    //文本垂直居中
     display: flex; justify-content: center; 
+
+
     
 参考页面：http://www.jianshu.com/p/f82262002f8a
 
